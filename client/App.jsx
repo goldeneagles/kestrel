@@ -1,7 +1,15 @@
 import React from 'react';
+import { BrowserRouter, Route } from 'react-router-dom';
+
+import TestPage from './pages/TestPage';
 
 export default class App extends React.Component {
 	render() {
-		return <h1>Hello!</h1>;
+		return <div>
+			<div>header goes here</div>
+			<BrowserRouter>
+				<Route path="/test" component={TestPage} />
+			</BrowserRouter>
+		</div>;
 	}
 }
