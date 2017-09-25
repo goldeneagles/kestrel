@@ -3,4 +3,8 @@ import React from 'react';
 
 import App from './App';
 
-ReactDOM.render(<App />, document.body);
+const node = document.createElement('div');
+node.id = "app";
+document.body.appendChild(node);
+
+ReactDOM.render(<App />, node);
