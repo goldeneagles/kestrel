@@ -10,6 +10,8 @@
     "babel-preset-react": "^6.24.1",
     "bootstrap": "^3.3.7",
     "css-loader": "^0.28.7",
+    "db-migrate": "^0.10.0-beta.24",
+    "db-migrate-pg": "^0.2.5",
     "file-loader": "^0.11.2",
     "html-webpack-plugin": "^2.30.1",
     "nodemon": "^1.12.1",
