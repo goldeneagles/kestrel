@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 2222;
 
 const app = express();
 
-app.use('/api', require('./api'));
+app.use('/api', require('./server/api'));
 app.use(express.static('static'));
 app.use(express.static('dist'));
 app.use(function(req, res) {
